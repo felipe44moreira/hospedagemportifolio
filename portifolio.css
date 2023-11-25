@@ -1,0 +1,78 @@
+
+body {
+    background-color: black;
+    height:100vh;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    padding:40px 4% ;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+header a{
+    color:#dfd9d9 ;
+    text-decoration: none;
+}
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #cc5444;
+    border: 0px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #dfd9d9;
+}
+
+.container1 {
+    display: flex; /* Use flexbox para alinhar itens lado a lado */
+    align-items: center; /* Centralize verticalmente os itens na div */
+
+}
+
+/* Estilize a imagem */
+.imagem1 {
+    max-width: 30%; /* Defina a largura máxima da imagem conforme necessário */
+    margin: 100px;
+    border-radius: 50%;
+}
+
+.texto1{
+    color: #dfd9d9; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.imagem2, .imagem3 {
+    max-width: 40%; 
+    margin: 100px;
+    border-radius: 500px
+}
